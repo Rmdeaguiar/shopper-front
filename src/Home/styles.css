@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 30px;
+}
+
+.edit-price {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+}
+
+.change-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 80px;
+  position: relative;
+}
+
+.change-price h2 {
+  margin-bottom: 50px;
+  ;
+}
+
+.change-price label {
+  font-weight: bold;
+}
+
+.change-price input {
+  padding: 8px;
+}
+
+.change-price button {
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.change-price h3 {
+  position: absolute;
+  color: red;
+  bottom: -40px;
+  font-weight: normal;
+  font-size:12px;
+}
+
+.product-pack {
+  width: 25%;
+}
