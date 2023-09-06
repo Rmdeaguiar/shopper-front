@@ -39,11 +39,11 @@ function Home() {
         })
 
         setUpdateProduct(response.data);
-        setShowProduct(true)
+        setShowProduct(true);
 
     } catch (error) {
       setErrorProduct(error.response.data.message);
-      setShowProduct(false)
+      setShowProduct(false);
     }
   }
 
@@ -69,12 +69,11 @@ function Home() {
         })
 
         setUpdateProduct(response.data);
-        setShowProduct(true)
-        console.log(response.data);
+        setShowProduct(true);
 
     } catch (error) {
       setErrorPack(error.response.data.message);
-      setShowProduct(false)
+      setShowProduct(false);
     }
   }
 
