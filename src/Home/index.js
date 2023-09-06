@@ -40,7 +40,6 @@ function Home() {
 
         setUpdateProduct(response.data);
         setShowProduct(true)
-        console.log(response.data);
 
     } catch (error) {
       setErrorProduct(error.response.data.message);
